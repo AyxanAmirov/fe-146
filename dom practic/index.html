@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./layout.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- css links-end -->
+    <!-- font awsome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- font awsome link end -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="table">
+        <h2 class="name-list">Todo List Sayfası</h2>
+        <div class="inputs-body">
+          <form id="formElement">
+            <input
+              type="text"
+              placeholder="Todo Giriniz"
+              class="search-input"
+              id="getinput"
+            />
+            <button class="btn"  type="submit">Todo ekleyin</button>
+          </form>
+        </div>
+
+        <div class="inputs-body">
+          <h3 class="todo">Todo Listesi</h3>
+          <input
+            type="search"
+            class="search-input input-line"
+            placeholder="Todo Arayınız"
+          />
+
+          <ul class="todo-list">
+            <!-- <li class="list-element">
+              Todo 1
+              <a href="#!" class="remove-btn" >
+                <i class="fa-solid fa-xmark icon-hover"></i>
+              </a>
+            </li> -->
+           
+          </ul>
+          <button class="btn" type="submit" >
+            Tüm Todoları Temizleyin
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
